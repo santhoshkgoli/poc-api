@@ -29,6 +29,16 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+    			<armDeployment>
+     			<muleVersion>4.4.0</muleVersion>
+			    <target>mule4KbntsClstr1</target>
+      			<targetType>cluster</targetType>
+     			 <username>santhoshkgoli</username>
+      			<password>Santhu123@</password>
+      			<environment>DEV</environment>
+      		    </armDeployment>
+  				</configuration>
 			</plugin>
 		</plugins>
 	</build>
